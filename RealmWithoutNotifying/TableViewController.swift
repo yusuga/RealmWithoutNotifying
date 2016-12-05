@@ -67,8 +67,10 @@ class TableViewController: UITableViewController {
                 }
                 return object.id + 1
             }()
+            
             list.objects.insert(DemoObject(value: ["id": maxID]),
                                 at: 0)
+            /* UIの更新は通知内で行われる */
         }
     }
     
@@ -116,6 +118,7 @@ class TableViewController: UITableViewController {
             
             try! realm.write {
                 realm.delete(list.objects[indexPath.row])
+                /* UIの更新は通知内で行われる */
             }
         }    
     }
