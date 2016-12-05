@@ -1,0 +1,1 @@
+[Realm Advent Calendar 2016](http://qiita.com/advent-calendar/2016/realm) 6日目 [[iOS] Realmに追加された待望の新機能！通知のスキップについて。](http://qiita.com/yusuga/items/fd4ee0127d892e51c290)のサンプルです。
